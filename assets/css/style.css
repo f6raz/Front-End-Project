@@ -175,6 +175,92 @@ header.fixed-top {
     box-shadow: 0 4px 20px 0 #0000001a ;
 }
 
+.what-we-do .boxes-wrapper h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.what-we-do .boxes-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.what-we-do .boxes-wrapper a {
+    transition: all 0.35s linear;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.what-we-do .boxes-wrapper:hover a {
+    color: white;
+    background-color: #f55f1d;
+}
+
+.what-we-do .boxes-wrapper a img {
+    transition: all 0.35s linear;
+}
+
+.what-we-do .boxes-wrapper:hover a img {
+    filter: invert(1);
+}
+
 
 
 /* What We Do Section Starts Here */
+
+
+
+
+/* Our Progress Section Start Here */
+
+
+.our-progress {
+    padding: 80px 0;
+    background-color: #fafffb;
+}
+
+.our-progress ul li {
+    padding: 40px 0;
+    border-right: 1px solid #c4c4c480;
+    text-align: center;
+}
+
+.our-progress ul li:last-child {
+    border-right: none;
+}
+
+.our-progress ul li img {
+    margin-bottom: 10px;
+}
+
+.our-progress ul li h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.our-progress ul li h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #20b15a;
+}
+
+
+
+
+
+
+/* Our Progress Section Start Here */
