@@ -1,0 +1,180 @@
+body, html {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header CSS Starts Here */
+
+
+
+.navbar-expand-lg .navbar-toggler {
+    display: block;
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem #20b15a6b;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+.dropdown-item:active, 
+.dropdown-item:hover {
+    background-color: #20b15a;
+}
+
+.dropdown-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 15px 20px;
+    color: black;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+li :last-child .dropdown-item {
+    border-bottom: none;
+}
+
+.navbar-brand:hover{
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: inherit;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+header .navbar-expand-lg .navbar-nav {
+    column-gap: 30px;
+
+}
+
+.text-dark {
+    color: black;
+}
+
+.fw-regular {
+    font-weight: 500;
+}
+.radius-10 {
+    border-radius: 10px;
+}
+
+.btn-outline-success {
+    border-color: #20b15a;
+}
+.btn-outline-success:hover {
+    border-color: white;
+}
+
+.btn-success {
+    border-color: #20b15a;
+    background-color: #20b15a;
+}
+
+.header .fixed-top {
+    background-color: #d7f5dc;
+}
+
+header.fixed-top {
+    background-color: #d7f5dc;
+}
+
+.navbar-brand span {
+    color: #f55f1d;
+}
+
+/* Header CSS Ends Here */
+
+
+/* Hero Banner CSS Starts Here */
+
+.hero-banner {
+    background-color: #d7f5dc;
+    padding: 120px 0 35px;
+}
+
+.hero-banner h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.hero-banner p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 37px;
+}
+
+.hero-banner a {
+    padding: 20px 30px;
+    line-height: 1;
+}
+
+.social-logos {
+    background-color: white;
+    padding: 44px 0px;
+}
+
+
+/* Hero Banner CSS Ends Here */
+
+
+
+/* What We Do Section Starts Here */
+
+.what-we-do {
+    padding: 65px 0;
+}
+
+.sub-heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #20b15a;
+    text-transform: uppercase;
+}
+
+.main-heading {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+
+.what-we-do .boxes-wrapper {
+    padding: 50px 50px 50px 30px;
+    border-radius: 30px;
+    transition: all 0.35s linear;
+    background-color: white;
+}
+
+.what-we-do .boxes-wrapper:hover {
+    box-shadow: 0 4px 20px 0 #0000001a ;
+}
+
+
+
+/* What We Do Section Starts Here */
